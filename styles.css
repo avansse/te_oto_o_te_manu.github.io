@@ -15,7 +15,6 @@ body {
 /* conteneur principal */
 .container {
   width: 90%;
-  max-width: 420px;
   text-align: center;
 }
 
