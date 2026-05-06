@@ -89,3 +89,21 @@ video {
   max-width: 900px;
   width: 95%;
 }
+
+.video-page .back {
+  display: inline-block;   /* au lieu de block */
+  width: auto;             /* empêche plein largeur */
+
+  padding: 14px 22px;
+  margin: 25px auto 0;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  background: #ffcc00;
+  color: #111;
+  text-decoration: none;
+
+  border-radius: 18px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+}
