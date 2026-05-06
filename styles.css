@@ -1,71 +1,86 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(180deg, #111, #1a1a1a);
-  color: #fff;
   margin: 0;
   min-height: 100vh;
-}
 
-/* PAGE ACCUEIL UNIQUEMENT */
-.home {
+  /* centrage global */
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  text-align: center;
+
+  background: linear-gradient(180deg, #111, #1a1a1a);
+  color: #fff;
 }
 
-/* conteneur */
+/* conteneur principal */
 .container {
-  width: 100%;
-  max-width: 500px;
-  padding: 20px;
-  margin: 0 auto;
+  width: 90%;
+  max-width: 420px;
   text-align: center;
 }
 
+/* TITRE */
 h1 {
   font-size: 1.8rem;
   margin-bottom: 20px;
+  line-height: 1.3;
 }
 
-/* MENU */
+/* MENU BOUTONS */
 .menu a {
   display: block;
-  margin: 15px 0;
-  font-size: 20px;
+  margin: 14px 0;
   padding: 18px;
-  background: #00d9ff;
-  border-radius: 16px;
-  color: #fff;
+
+  font-size: 20px;
   text-decoration: none;
+  color: #fff;
+
+  background: #00d9ff;
+  border-radius: 18px;
+
   box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+
+  transition: transform 0.15s ease, background 0.2s ease;
 }
 
 .menu a:active {
   transform: scale(0.96);
 }
 
-/* VIDEO (IMPORTANT FIX) */
-video {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  margin: 20px auto;
-  display: block;
-  border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+.menu a:hover {
+  background: #00bcd4;
 }
 
-/* BACK BUTTON */
+/* VIDEO STYLE */
+video {
+  width: 100%;
+  margin-top: 20px;
+
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+}
+
+/* BOUTON RETOUR */
 .back {
-  display: inline-block;
-  margin-top: 25px;
-  font-size: 22px;
-  padding: 16px 24px;
-  background: #ffcc00;
-  color: #111;
-  border-radius: 16px;
-  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  padding: 16px;
+
+  font-size: 20px;
   font-weight: bold;
+  text-decoration: none;
+
+  color: #111;
+  background: #ffcc00;
+
+  border-radius: 18px;
+
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+
+  transition: transform 0.15s ease;
+}
+
+.back:active {
+  transform: scale(0.96);
 }
