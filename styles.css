@@ -1,61 +1,63 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
   background: linear-gradient(180deg, #111, #1a1a1a);
   color: #fff;
   margin: 0;
-  padding: 15px;
+
+  /* centrage vertical + horizontal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* conteneur principal */
+.container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
 }
 
 h1 {
-  margin-top: 20px;
-  font-size: 1.6rem;
-  line-height: 1.3;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
 }
 
 /* MENU */
-.menu {
-  margin-top: 30px;
-}
-
 .menu a {
   display: block;
-  margin: 12px auto;
-  max-width: 300px;
+  margin: 15px 0;
+  width: 100%;
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  padding: 14px;
+  font-size: 20px;
+  padding: 18px;
   background: #00d9ff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* effet app mobile */
+/* effet pression */
 .menu a:active {
-  transform: scale(0.97);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+  transform: scale(0.96);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.7);
 }
 
-.menu a:hover {
-  background: #00bcd4;
-}
-
-/* BOUTON RETOUR */
+/* bouton retour */
 .back {
-  margin: 30px auto;
+  margin-top: 25px;
   display: block;
-  max-width: 250px;
-  color: #111;
-  font-size: 20px;
-  padding: 12px;
+  width: 100%;
+  font-size: 22px;
+  padding: 16px;
   background: #ffcc00;
-  border-radius: 12px;
+  color: #111;
+  border-radius: 16px;
   text-decoration: none;
   font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-  transition: transform 0.15s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
 }
 
 .back:active {
@@ -66,6 +68,6 @@ h1 {
 video {
   margin-top: 20px;
   width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
 }
