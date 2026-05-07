@@ -8,8 +8,8 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(180deg, #111, #1a1a1a);
-  color: #fff;
+  background: linear-gradient(180deg, #fffbe9, #fffbe9);
+  color: #000000;
 }
 
 /* conteneur principal */
@@ -34,9 +34,9 @@ h1 {
 
   font-size: 20px;
   text-decoration: none;
-  color: #fff;
+  color: #000000;
 
-  background: #0077ff;
+  background: #70acec;
   border-radius: 18px;
 
   box-shadow: 0 6px 15px rgba(0,0,0,0.5);
@@ -49,7 +49,7 @@ h1 {
 }
 
 .menu a:hover {
-  background: #0077ff86;
+  background: #3f679191;
 }
 
 /* VIDEO STYLE */
@@ -71,8 +71,8 @@ video {
   font-weight: bold;
   text-decoration: none;
 
-  color: #111;
-  background: #ffcc00;
+  color: #000000;
+  background: #e8a202;
 
   border-radius: 18px;
 
@@ -100,8 +100,8 @@ video {
   font-size: 35px;
   font-weight: bold;
 
-  background: #ffcc00;
-  color: #111;
+  background: #e8a202;
+  color: #000000;
   text-decoration: none;
 
   border-radius: 18px;
