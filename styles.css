@@ -34,7 +34,7 @@ h1 {
 
   font-size: 20px;
   text-decoration: none;
-  color: #000000;
+  color: #261673;
 
   background: #70acec;
   border-radius: 18px;
@@ -49,7 +49,7 @@ h1 {
 }
 
 .menu a:hover {
-  background: #3f679191;
+  background: #669bd4b7;
 }
 
 /* VIDEO STYLE */
